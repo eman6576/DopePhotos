@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+.grayscale {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+.nostalgia {
+    -webkit-filter: saturate(40%);
+            filter: grayscale(100%);
+            filter: contrast(45%);
+            filter: sepia(100%);
+}
+.negative {
+    -webkit-filter: invert(100%);
+            filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+}
+img {
+    width: 400px;
+    height: 300px;
+}
+.error {
+    display: inline-block;
+    font-size: 25px;
+}
